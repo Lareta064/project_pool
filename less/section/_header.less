@@ -1,0 +1,195 @@
+.header-page {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	
+	&::before {
+		position: absolute;
+		content:"";
+		background-color: rgba(0,0,0, .7);
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 100;
+	}
+}
+.navbar-brand {
+	width: 180px;
+	background: url("../img/icons/logo.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#responsive-menu a.top-menu {
+	font-size: 14px;
+	color: #003264;
+	font-weight: 700;
+	&:hover {
+		color: #0000CC;
+		border-bottom: 1px solid #0000CC;
+		padding-bottom: 5px;
+	}
+}
+.navbar-default {
+	border-radius: 0px;
+	background-color: #999999;
+}
+.page-header__navigation{
+
+}
+/*стили слайдера*/
+#owlcarousel .owl-item div{
+  padding:0px;
+  margin: 0;
+}
+
+  .owl-carousel-item {
+  	width: 100%;
+  	height: 100vh;
+  	text-align: center;
+  	font-weight: 700;
+  	font-size: 40px;
+  }
+
+
+.header-page__slogan {
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index:100;
+    text-align: center;
+    color: #FFF;
+   font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+	
+}
+.header-page__slogan h1 {
+   font-size: 50px;
+   margin-bottom: 90px;
+
+}
+.header-page__slogan h2 {
+   font-size: 40px;
+
+}
+
+/************************/
+/* accorderon */
+
+
+/* Form Style */
+a:hover,a:focus{
+ text-decoration: none;
+ outline: none;
+}
+
+#accordion .panel{
+ border: none;
+ box-shadow: none;
+ border-radius: 0;
+ margin-bottom: 5px;
+}
+
+#accordion .panel-heading{
+ padding: 0;
+ border-radius: 0;
+ text-align: center;
+ border: none;
+}
+
+#accordion .panel-title a{
+ display: block;
+ padding: 15px;
+ font-size: 16px;
+ font-weight: bold;
+ color: #fff;
+ background: #0C0119;
+ transition: all 0.5s ease 0s;
+}
+
+#accordion .panel-title a:hover{
+ background: rgba(12, 1, 25, 0.8);
+}
+
+#accordion .panel-body{
+ font-size: 14px;
+ color: #fff;
+ background: #29b0a0;
+ padding: 15px 20px;
+ line-height: 25px;
+ border: none;
+ position: relative;
+}
+
+#accordion .panel-body:after{
+ content: "";
+ position: absolute;
+ top: -30px;
+ left: 40px;
+ border: 15px solid transparent;
+ border-bottom: 15px solid #29b0a0;
+}
+
+.panel-body ul li {
+	text-align: left;
+	padding-left: 30px;
+	& a {
+		font-size: 14px;
+		font-weight: 700;
+		color: rgb(0, 0,102);
+
+		&:hover {
+			color: rgba(0, 0,102, .5);
+		}
+	}
+	& span {
+		color: rgb(0, 0,102);
+		margin-right: 15px;
+	}
+}
+.panel-title  {
+	text-transform: uppercase;
+}
+/*section catalog*/
+.catalog {
+	text-align: center;
+	height: 600px;
+	position: relative;
+	background: url("../img/bg/bg9.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	& h2 {
+		color: #333;
+	}
+}
+
+.catalog::before {
+	position: absolute;
+		content:"";
+		background-color: rgba(255,255,255, .3);
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 100;
+	}
+	.catalog__content {
+		position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index:100;
+    text-align: center;
+	}
